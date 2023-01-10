@@ -1,19 +1,167 @@
-body{
-    background-color: #cfeecf;
+.div1{
+    background-color:#7DE5ED;
+    text-align: center;
+
+    position: relative;
+    padding-top: 180px;   
 }
 hr{
-    border-color: #708090;
-    border-style: none;
-    border-top-style: dotted;
+    border-style: dotted none none none;
+    border: 1px 0 0 0;
+    margin: 100px auto 100px auto;
     border-width: 5px;
     width: 5%;
+    
+    
+    
+}
+
+body{
+    margin: 0px;
+    font-family: 'Merriweather', serif;
 }
 h1{
-    text-shadow: 3px ;
-    text-decoration-line: underline;
-    text-decoration-color: black;
-    color: #057e7e;
+    font-family: 'Dancing Script', cursive;
+    font-size: 4.5rem;
+    color: #0d3535;
+}
+h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    color: #0d3535;
+    font-weight: normal;
+    line-height: 2;
 }
 h3{
-    color: #057e7e;
+    font-family: 'Montserrat', sans-serif;
+    color: #11999E;
+}
+a{
+    color: #203131;
+    font-family: 'Montserrat', sans-serif; 
+    margin: 20px 30px;
+    text-decoration: none ;
+}
+a:hover{
+    color:#40514E;
+}
+
+.div1-h1{
+    margin-top: 0px;
+   
+}
+.profile-description{
+    color: #40514E;
+    margin: 0 auto 40px auto;
+    width: 30%;
+    line-height: 2;
+}
+
+
+
+.div2{
+    background-color:#81C6E8;
+    text-align: center;
+    position: relative;
+    padding-top: 50px;
+    padding-bottom: 25px;
+}
+.skill-div{
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+
+
+.div3{
+    
+    background-color:#66BFBF;
+    text-align: center;
+    margin-top: 0;
+    position: relative;
+    padding-top: 35px;
+    padding-bottom: 20px;
+}
+
+.sun{
+    height: 130px;
+    width: 130px;
+    position: absolute;
+    left: 75px;
+    top: 100px;
+    
+    
+}
+
+.cloud-1{
+    height: 150px;
+    width: 250px;
+    position: absolute;
+    right: 250px;
+    top: 90px;
+    
+    
+}
+
+.cloud-2{
+    height: 150px;
+    width: 250px;
+    position: absolute;
+    left: 250px;
+    
+}
+
+.mountain{
+    width: 60%;
+
+}
+.profile{
+    width: 20%;
+    height: 20%;
+}
+
+.teaching-img{
+    width: 25%;
+    height: 25%;
+    float: left;
+    margin-right: 30px;
+}
+.coding-img{
+    width: 25%;
+    height: 25%;
+    float: right;
+    margin-left: 30px;
+}
+.leadership-img{
+    width: 25%;
+    height: 25%;
+    float: left;
+    margin-right: 30px;
+}
+.button{
+    border-radius: 8px;
+    color: black;
+    padding: 4px;
+    font-size: 1.1rem;
+    background-image: linear-gradient(to right,  #11cdd4, #11999e);
+}
+.get-in-touch{
+    width: 30%;
+    margin: auto;
+    line-height: 2;
+}
+.button:hover{
+    background-image:linear-gradient(to right, #30e3cb, #2bc4ad) ;
+}
+.copyright{
+    color: #EAF6F6;
+    font-size: 0.65rem;
+    padding: 20px auto;
+}
+.fb{
+    color: #11999E;
+}
+.insta{
+    color: #11999E;
 }
